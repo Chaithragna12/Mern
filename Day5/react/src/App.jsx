@@ -12,8 +12,10 @@ import ProductDetails from "./Pages/ProductDetails";
 const App = () => {
   return (
     <>
-      {/* <User
-        name="Yasaswini"
+     
+      <Navbar/>
+       <User
+        name="chaithragna"
         age={22}
         skills={["React", "JavaScript", "Node.js"]}
       />
@@ -21,9 +23,9 @@ const App = () => {
       <State />
       <hr />
       <Form />
-      <Conditional/> */}
-      <Navbar/>
+      <Conditional/>
       <Routes>
+        
         <Route path="/" element={<Home/>}></Route>
         <Route path="/about" element={<About/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
